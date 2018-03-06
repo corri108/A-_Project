@@ -1,30 +1,36 @@
 #include "map_space.h"
-
+#include <stdio.h>
 //IMPLEMENTATION STARTS HERE
 
-map_space::map_space(map_space_enum type)
+map_space::map_space(char c, int x, int y)
 {
-	this->space_type = type;
+	this->board_char = c;
+	this->loc = new location(x, y);
+	this->manhattan_value = -1;
+	this->traveled = false;
+	this->parent = NULL;
+	this->move_value = -1;
+	this->is_destination = false;
 
-	switch (this->space_type)
+	switch (this->board_char)
 	{
-	case EMPTY:
-		this->board_char = '.';
+	case  '.':
+		this->space_type = EMPTY;
 		break;
-	case INITIAL:
-		this->board_char = 'i';
+	case 'i':
+		this->space_type = INITIAL;
 		break;
-	case GOAL:
-		this->board_char = 'g';
+	case 'g':
+		this->space_type = GOAL;
 		break;
-	case OBSTACLE:
-		this->board_char = '+';
+	case '+':
+		this->space_type = OBSTACLE;
 		break;
-	case TRAVELED:
-		this->board_char = 'o';
+	case 'o':
+		this->space_type = TRAVELED;
 		break;
-	case UNINITIALIZED:
-		this->board_char = 'X';
+	case  'X':
+		this->space_type = UNINITIALIZED;
 		break;
 	}
 }

@@ -144,11 +144,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AIHomework2.cpp" />
+    <ClCompile Include="board_evaluator.cpp" />
     <ClCompile Include="board_space.cpp" />
+    <ClCompile Include="location.cpp" />
     <ClCompile Include="map_space.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="board_evaluator.h" />
     <ClInclude Include="board_space.h" />
+    <ClInclude Include="eval_type.h" />
+    <ClInclude Include="location.h" />
     <ClInclude Include="map_space.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

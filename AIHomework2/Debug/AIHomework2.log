@@ -1,2 +1,11 @@
-﻿  AIHomework2.cpp
+﻿  board_space.cpp
+c:\users\socce\source\repos\aihomework2\aihomework2\board_space.cpp(69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\socce\source\repos\aihomework2\aihomework2\board_space.cpp(331): warning C4018: '<': signed/unsigned mismatch
+c:\users\socce\source\repos\aihomework2\aihomework2\board_space.cpp(406): warning C4018: '<': signed/unsigned mismatch
+c:\users\socce\source\repos\aihomework2\aihomework2\board_space.cpp(410): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\socce\source\repos\aihomework2\aihomework2\board_space.cpp(481): warning C4018: '<': signed/unsigned mismatch
+c:\users\socce\source\repos\aihomework2\aihomework2\board_space.cpp(506): warning C4018: '<': signed/unsigned mismatch
+c:\users\socce\source\repos\aihomework2\aihomework2\board_space.cpp(572): warning C4018: '<': signed/unsigned mismatch
+c:\users\socce\source\repos\aihomework2\aihomework2\board_space.cpp(576): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\socce\source\repos\aihomework2\aihomework2\board_space.cpp(597): warning C4018: '<': signed/unsigned mismatch
   AIHomework2.vcxproj -> C:\Users\socce\source\repos\AIHomework2\Debug\AIHomework2.exe

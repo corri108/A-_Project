@@ -24,12 +24,27 @@
     <ClCompile Include="map_space.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="board_evaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="location.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="map_space.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="board_space.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eval_type.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="board_evaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="location.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
